@@ -1,0 +1,6 @@
+PROJECT_NAME: gfw-project
+DATASET: points
+TABLE: points
+CORS_ALLOW_ORIGIN: 
+  - "http://localhost"
+  - "http://localhost:5173"

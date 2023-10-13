@@ -1,0 +1,45 @@
+.container {
+    position: fixed;
+    z-index: 10;
+    left: -330px;
+    top: 3px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    transition: left 0.3s;
+  }
+  
+  .tab {
+    border: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    width: 50px;
+    height: 70px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .panel {
+    border: 1px solid #ffffff;
+    text-align: left;
+    z-index: 10;
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 400px;
+  }
+  
+  .container.open {
+    left: 0px;
+  }
+  
+  .searchBtn {
+    position: 'absolute';
+    top: 15;
+    left: 10;
+    z-index: 10;
+  }
