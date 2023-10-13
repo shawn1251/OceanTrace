@@ -1,4 +1,6 @@
 # OceanTrace
+<img src='https://github.com/shawn1251/OceanTrace/blob/main/demo/demo.gif?raw=true'>
+
 OceanTrace is a small web application developed as a learning project during my exploration of Typescript, React and BigQuery. It serves as a template for creating a trajectory 3D viewer, leveraging React for the frontend, Python and FastAPI for the backend, BigQuery for the database, and Cesium for the immersive visualization of trajectories.
 
 
@@ -64,7 +66,7 @@ cd backend
 pipenv run uvicorn main:app
 ```
 the dev server will run on http://localhost:8000. You can check the openapi document on http://localhost:8000/docs
-
+<img src='https://github.com/shawn1251/OceanTrace/blob/main/demo/api.png' width='300'>
 
 
 ### Start the frontend application:
